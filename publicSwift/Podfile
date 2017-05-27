@@ -1,0 +1,17 @@
+# Uncomment the next line to define a global platform for your project
+# platform :ios, '8.0'
+platform :ios, "8.0"
+use_frameworks!
+
+target 'publicSwift' do
+
+  # Pods for publicSwift
+
+pod 'Alamofire'
+pod 'UMengAnalytics'
+pod 'JPush', '3.0.2'
+pod 'AMap2DMap'
+pod 'AMapSearch'
+pod 'AMapLocation'
+
+end
